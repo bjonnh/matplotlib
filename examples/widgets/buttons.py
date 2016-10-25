@@ -1,11 +1,22 @@
+"""
+==============
+Create buttons
+==============
+
+The buttons are attached to callback functions that are called
+when they are pressed.
+"""
 
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 from matplotlib.widgets import Button
 
 freqs = np.arange(2, 20, 3)
 
 fig, ax = plt.subplots()
+plt.title('Buttons demo')
 plt.subplots_adjust(bottom=0.2)
 t = np.arange(0.0, 1.0, 0.001)
 s = np.sin(2*np.pi*freqs[0]*t)

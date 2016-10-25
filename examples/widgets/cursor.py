@@ -1,6 +1,17 @@
-from matplotlib.widgets import Cursor
+"""
+==================
+Interactive cursor
+==================
+
+Adds an interactive cursor to the plot. This cursor is for display
+purpose only.
+"""
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
+from matplotlib.widgets import Cursor
 
 
 fig = plt.figure(figsize=(8, 6))

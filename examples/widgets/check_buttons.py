@@ -1,3 +1,12 @@
+"""
+=================
+Create checkboxes
+=================
+
+The checkboxes have callback functions associated to events such as
+checkbox.on_clicked(callback_function)
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import CheckButtons
@@ -8,6 +17,7 @@ s1 = np.sin(4*np.pi*t)
 s2 = np.sin(6*np.pi*t)
 
 fig, ax = plt.subplots()
+plt.title('Checkboxes demo')
 l0, = ax.plot(t, s0, visible=False, lw=2)
 l1, = ax.plot(t, s1, lw=2)
 l2, = ax.plot(t, s2, lw=2)

@@ -1,3 +1,12 @@
+"""
+====================
+Lasso selection tool
+====================
+
+This example adds a lasso selector to a plot, allowing the user
+to select points by surrounding them.
+"""
+
 from __future__ import print_function
 
 import numpy as np
