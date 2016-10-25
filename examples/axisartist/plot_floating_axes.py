@@ -1,5 +1,7 @@
 """
+==========================
 Demo of the floating axes.
+==========================
 
 This demo shows features of functions in floating_axes:
     * Using scatter function and bar function with changing the
@@ -10,14 +12,17 @@ This demo shows features of functions in floating_axes:
       value from GridHelperCurveLinear.
     * Making sector plot by adding more features to GridHelperCurveLinear.
 """
+
+import matplotlib.pyplot as plt
+
+import numpy as np
+
 from matplotlib.transforms import Affine2D
 import mpl_toolkits.axisartist.floating_axes as floating_axes
-import numpy as np
 import mpl_toolkits.axisartist.angle_helper as angle_helper
 from matplotlib.projections import PolarAxes
 from mpl_toolkits.axisartist.grid_finder import (FixedLocator, MaxNLocator,
                                                  DictFormatter)
-import matplotlib.pyplot as plt
 
 
 def setup_axes1(fig, rect):
@@ -135,7 +140,6 @@ def setup_axes3(fig, rect):
     return ax1, aux_ax
 
 
-##########################################################
 fig = plt.figure(1, figsize=(8, 4))
 fig.subplots_adjust(wspace=0.3, left=0.05, right=0.95)
 

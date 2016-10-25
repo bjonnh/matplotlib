@@ -1,5 +1,7 @@
 """
+==========================
 Custom grid and ticklines.
+==========================
 
 This example demonstrates how to use GridHelperCurveLinear to define
 custom grids and ticklines by applying a transformation on the grid.
@@ -17,6 +19,11 @@ from mpl_toolkits.axisartist import SubplotHost, \
     ParasiteAxesAuxTrans
 from mpl_toolkits.axisartist.grid_helper_curvelinear import \
     GridHelperCurveLinear
+
+import mpl_toolkits.axisartist.angle_helper as angle_helper
+
+from matplotlib.projections import PolarAxes
+from matplotlib.transforms import Affine2D
 
 
 def curvelinear_test1(fig):
@@ -52,12 +59,6 @@ def curvelinear_test1(fig):
     ax1.axis["t"] = ax1.new_floating_axis(0, 3.)
     ax1.axis["t2"] = ax1.new_floating_axis(1, 7.)
     ax1.grid(True, zorder=0)
-
-
-import mpl_toolkits.axisartist.angle_helper as angle_helper
-
-from matplotlib.projections import PolarAxes
-from matplotlib.transforms import Affine2D
 
 
 def curvelinear_test2(fig):

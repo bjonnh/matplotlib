@@ -1,5 +1,7 @@
 """
+==========================
 Custom grid and ticklines.
+==========================
 
 This example demonstrates how to use GridHelperCurveLinear to define
 custom grids and ticklines by applying a transformation on the grid.
@@ -18,7 +20,7 @@ import mpl_toolkits.axisartist.angle_helper as angle_helper
 
 def curvelinear_test1(fig):
     """
-    grid for custom transform.
+    Plot with a custom transformation grid.
     """
 
     def tr(x, y):
