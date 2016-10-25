@@ -1,5 +1,7 @@
 """
+==================
 Parasite axis demo
+==================
 
 The following code is an example of a parasite axis. It aims to show a user how
 to plot multiple different values onto one single plot. Notice how in this
@@ -8,6 +10,7 @@ the x-axis. From there, each of those two axis can behave separately from the
 each other, meaning they can take on seperate values from themselves as well as
 the x-axis.
 """
+
 from mpl_toolkits.axes_grid1 import host_subplot
 import mpl_toolkits.axisartist as AA
 import matplotlib.pyplot as plt
