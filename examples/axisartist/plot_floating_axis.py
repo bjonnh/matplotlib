@@ -24,7 +24,7 @@ def curvelinear_test2(fig):
     polar projection, but in a rectangular box.
     """
     global ax1
-    # see demo_curvelinear_grid.py for details
+    # see plot_curvelinear_grid.py for details about grid transformations
     tr = Affine2D().scale(np.pi / 180., 1.) + PolarAxes.PolarTransform()
 
     extreme_finder = angle_helper.ExtremeFinderCycle(20,

@@ -1,7 +1,7 @@
 """
-==========================
-Custom grid and ticklines.
-==========================
+=========================
+Custom grid and ticklines
+=========================
 
 This example demonstrates how to use GridHelperCurveLinear to define
 custom grids and ticklines by applying a transformation on the grid.

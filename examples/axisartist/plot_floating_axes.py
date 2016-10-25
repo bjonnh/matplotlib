@@ -1,7 +1,7 @@
 """
-==========================
-Demo of the floating axes.
-==========================
+=========================
+Demo of the floating axes
+=========================
 
 This demo shows features of functions in floating_axes:
     * Using scatter function and bar function with changing the

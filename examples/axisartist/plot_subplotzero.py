@@ -1,7 +1,7 @@
 """
-==========================
-Create zero-centered axes.
-==========================
+=========================
+Create zero-centered axes
+=========================
 
 This example demonstrates how to use SubplotZero to create
 zero-centered axes.
